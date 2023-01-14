@@ -1,0 +1,19 @@
+.Squad{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  color: chartreuse;
+  animation: Squad-logo-spin infinite 20s linear;
+}
+
+@keyframes Squad-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
